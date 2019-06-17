@@ -1,8 +1,8 @@
 // add solution here
 function theBeatlesPlay (musicians, instruments) {
-  var joiner = [];
+  var empty = [];
   for (let i = 0; i < musicians.length; i++) {
-    joiner.push(console.log(`${musicians[i]} plays ${instruments[i]}`))
+    empty.push(console.log(`${musicians[i]} plays ${instruments[i]}`))
   }
-  return joiner
+  return empty
 }
